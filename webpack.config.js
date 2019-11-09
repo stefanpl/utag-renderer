@@ -36,10 +36,9 @@ module.exports = {
     __dirname: false,
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.js', '.json'],
+    extensions: ['.mjs', '.tsx', '.ts', '.js', '.json'],
   },
-  plugins: [
-  ],
+  plugins: [],
   target: 'node',
   devtool: 'source-map',
 };
