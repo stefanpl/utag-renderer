@@ -1,6 +1,7 @@
 module.exports = {
   extends: ['airbnb-typescript/base', 'plugin:prettier/recommended'],
   rules: {
+    'no-plusplus': 'off',
     'no-console': 'off',
     'import/no-extraneous-dependencies': ['error', {
       devDependencies: [
