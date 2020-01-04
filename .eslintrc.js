@@ -10,7 +10,7 @@ module.exports = {
       ],
       optionalDependencies: false,
     }],
-    'no-use-before-define': ['error', { functions: false, variables: true, classes: true }],
+    '@typescript-eslint/no-use-before-define': ['error', { functions: false, variables: true, classes: true }],
 	  'import/prefer-default-export': 'off',
     'prettier/prettier': 'error',
   },
