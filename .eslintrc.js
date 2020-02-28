@@ -22,4 +22,11 @@ module.exports = {
     'prettier/prettier': 'error',
   },
   plugins: ['prettier'],
+  settings: {
+    "import/resolver": {
+      node: {
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
+      }
+    }
+  },
 }
