@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "paths": { "*": ["types/*"] },
     "outDir": "./dist/",
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "strictNullChecks": true,
     "lib": ["es2016"],
     "module": "es6",
