@@ -22,6 +22,7 @@ module.exports = {
     }],
     '@typescript-eslint/no-use-before-define': ['error', { functions: false, variables: true, classes: true }],
     '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/no-floating-promises': 2,
 	  'import/prefer-default-export': 'off',
     'prettier/prettier': 'error',
   },
