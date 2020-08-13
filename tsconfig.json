@@ -5,6 +5,7 @@
     "outDir": "./dist/",
     "noImplicitAny": true,
     "strictNullChecks": true,
+    "strict": true,
     "lib": ["es2016"],
     "module": "es6",
     "moduleResolution": "node",
