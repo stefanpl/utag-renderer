@@ -6,11 +6,11 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "strict": true,
-    "lib": ["es2016"],
-    "module": "es6",
+    "lib": ["es2019"],
+    "module": "commonjs",
+    "target": "ES2019",
     "moduleResolution": "node",
     "sourceMap": true,
-    "target": "es6",
     "allowJs": true
   }
 }
