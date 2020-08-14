@@ -1,3 +1,4 @@
+const nodeExternals = require('webpack-node-externals');
 const path = require('path');
 
 module.exports = {
@@ -40,5 +41,6 @@ module.exports = {
   },
   plugins: [],
   target: 'node',
+  externals: [nodeExternals()],
   devtool: 'source-map',
 };
