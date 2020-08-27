@@ -1,0 +1,3 @@
+# By default, hidden files (starting with a dot . ) are ignored.
+# But we want to lint config files just as well.
+!.*.js
