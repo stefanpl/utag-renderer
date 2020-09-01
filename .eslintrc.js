@@ -8,38 +8,41 @@ module.exports = {
     'airbnb-typescript/base',
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
   ],
   rules: {
     'no-plusplus': 'off',
     'no-console': 'off',
-    'import/no-extraneous-dependencies': ['error', {
-      devDependencies: [
-        'src/tests/**', 
-        '*.js',
-      ],
-      optionalDependencies: false,
-    }],
-    '@typescript-eslint/no-use-before-define': ['error', { functions: false, variables: true, classes: true }],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: ['src/tests/**', '*.js'],
+        optionalDependencies: false,
+      },
+    ],
+    '@typescript-eslint/no-use-before-define': [
+      'error',
+      { functions: false, variables: true, classes: true },
+    ],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-floating-promises': 2,
-	  'import/prefer-default-export': 'off',
+    'import/prefer-default-export': 'off',
     'prettier/prettier': 'error',
   },
   plugins: ['prettier'],
   settings: {
-    "import/resolver": {
+    'import/resolver': {
       node: {
-        extensions: [".js", ".jsx", ".ts", ".tsx"],
-      }
-    }
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
   },
-  "overrides": [
+  overrides: [
     {
-      "files": ["*.js"],
-      "rules": {
-        "@typescript-eslint/no-var-requires": "off"
-      }
-    }
-  ]
-}
+      files: ['*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+  ],
+};
