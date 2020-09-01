@@ -24,6 +24,7 @@ module.exports = {
       'error',
       { functions: false, variables: true, classes: true },
     ],
+    curly: ['error', 'all'],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-floating-promises': 2,
     'import/prefer-default-export': 'off',
