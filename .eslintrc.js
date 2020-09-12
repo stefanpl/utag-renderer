@@ -11,8 +11,8 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {
+    'quote-props': ['error', 'as-needed'],
     'no-plusplus': 'off',
-    'no-console': 'off',
     'import/no-extraneous-dependencies': [
       'error',
       {
