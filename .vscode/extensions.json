@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "DavidAnson.vscode-markdownlint",
+    "EditorConfig.EditorConfig",
+    "Tyriar.sort-lines",
+    "attilabuti.vscode-mjml",
+    "christian-kohler.npm-intellisense",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "exiasr.hadolint",
+    "meganrogge.template-string-converter",
+    "msjsdiag.debugger-for-chrome",
+    "shakram02.bash-beautify",
+  ]
+}

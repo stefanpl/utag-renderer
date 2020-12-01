@@ -1,0 +1,76 @@
+{
+  "folders": [
+    {
+      "name": "ts-project",
+      "path": ".."
+    },
+  ],
+  "settings": {
+    "css.validate": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.useTabStops": true,
+    "git.ignoreLimitWarning": true,
+    "javascript.suggest.autoImports": true,
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+    ],
+    "eslint.workingDirectories": [
+      {
+        "mode": "auto"
+      }
+    ],
+    "html.format.endWithNewline": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "less.validate": false,
+    "prettier.disableLanguages": [
+      "markdown"
+    ],
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json,jsonc]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+      "source.addMissingImports": true,
+      "source.fixAll.eslint": true,
+      "source.organizeImports": true
+    },
+    "files.associations": {
+      "Dockerfile-*": "dockerfile",
+      "*.env.example": "env",
+      "*.js.example": "javascript",
+      "*.html.erb": "html"
+    },
+    "json.schemas": [
+      {
+        "fileMatch": [
+          "*schema.json"
+        ],
+        "url": "http://json-schema.org/draft-07/schema#"
+      }
+    ],
+    "files.exclude": {
+      "node_modules/": false,
+    },
+    "search.exclude": {
+      "node_modules/": true,
+    }
+  }
+}
