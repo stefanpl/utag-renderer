@@ -9,13 +9,13 @@
   "scripts": {
     "dev": "npm run development",
     "prod": "npm run production",
-    "development": "NODE_ENV=development npx webpack --mode=development",
-    "watch": "NODE_ENV=development npx webpack --mode=development --watch",
-    "production": "NODE_ENV=production npx webpack --mode=production",
+    "development": "cross-env NODE_ENV=development npx webpack --mode=development",
+    "watch": "cross-env NODE_ENV=development npx webpack --mode=development --watch",
+    "production": "cross-env NODE_ENV=production npx webpack --mode=production",
     "lint": "npx eslint \"src/**/*[jt]s\"",
     "lint-fix": "npx eslint --fix \"src/**/*[jt]s\"",
-    "test": "NODE_ENV=testing npx mocha dist/tests.compiled.js",
-    "quick-test": "RUN_QUICK_TEST=yeas NODE_ENV=testing npx mocha dist/tests.compiled.js"
+    "test": "cross-env NODE_ENV=testing npx mocha dist/tests.compiled.js",
+    "quick-test": "cross-env RUN_QUICK_TEST=yeas NODE_ENV=testing npx mocha dist/tests.compiled.js"
   },
   "author": "spl",
   "license": "ISC",
@@ -38,6 +38,7 @@
     "@types/fs-extra": "^9.0.4",
     "@types/mustache": "^4.0.1",
     "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "cross-env": "^7.0.3",
     "eslint": "^6.1.0",
     "eslint-config-airbnb-typescript": "^4.0.1",
     "eslint-loader": "^2.2.1",

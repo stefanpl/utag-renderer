@@ -27,6 +27,6 @@ async function loadTemplate() {
     undefined,
     ['%%%', '%%%'] // opening and closing tags
   );
-  const targetFile = resolve(DIST_DIR, 'out.js');
+  const targetFile = resolve(DIST_DIR, 'utag-override.js');
   await writeFile(targetFile, output, defaultEncoding);
 })();
